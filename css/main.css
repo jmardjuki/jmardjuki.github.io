@@ -1,0 +1,214 @@
+/**
+ *	Custom CSS for jmardjuki's website
+ */
+#cboxOverlay{
+	visibility: visible;
+	background-color: black;
+	opacity: 0.80 !important;
+}
+
+ /* Section 1: TOP */
+#section1{
+	background-image: url(https://farm2.staticflickr.com/1441/24519777740_e4a8aa2e67_o.jpg);
+	background-size: 100% auto;
+	background-repeat:no-repeat;
+}
+#my_name {
+	width: 100%;
+}
+.logo_icon {
+	opacity: 0.7;
+}
+#section1 .intro li {
+	display: inline;
+    margin-right: 3px;
+    margin-top: 3%;
+}
+
+#section1 h3{
+	color: #FFF;
+}
+
+#section1 #logo_text{
+	margin-top: 2%;
+}
+
+/* Section 2: About Me */
+#mae_pic {
+	width: 20%;
+	height: auto;
+}
+
+/* Section 3: Projects */;
+#section3 #project_year_selecion {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+#section3 .intro li {
+	display: inline;
+    margin-right: 3px;
+    margin-top: 6%;
+}
+.project_box {
+	color: black;
+	font-size: 150%;
+}
+
+.project_box_list {
+	list-style: circle;
+	color: black;
+	margin-left: 3%;
+}
+#project_content_2015{
+	float: center;
+}
+.project_top_row{
+    display:-webkit-flex;
+    -webkit-justify-content:center;
+
+    display:flex;
+    justify-content:center;
+}
+.inline {
+	color: red;
+}
+.project_image {
+	width: 50%;
+	height: auto;
+}
+.project_image_horizontal {
+	width: 30%;
+	height: auto;
+}
+
+#project_image_too_small {
+	width: 90%;
+	height: auto;
+}
+.project_bottom_row{
+	padding-top: 4%;
+    display:-webkit-flex;
+    -webkit-justify-content:center;
+
+    display:flex;
+    justify-content:center;
+}
+
+div.project_inline {
+    -webkit-flex:1;
+    flex:1;
+}
+.project_date {
+	color: red;
+}
+.clearBoth {
+	clear:both;
+}
+#project_year a{
+	color: green;
+}
+
+/* Custom Button */
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f9f9f9), color-stop(1, #e9e9e9));
+	background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-o-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9', endColorstr='#e9e9e9',GradientType=0);
+	background-color:#f9f9f9;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e9e9e9), color-stop(1, #f9f9f9));
+	background:-moz-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-webkit-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-o-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:-ms-linear-gradient(top, #e9e9e9 5%, #f9f9f9 100%);
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#f9f9f9',GradientType=0);
+	background-color:#e9e9e9;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#contact_me {
+	line-height: 2em;
+}
+
+#myTitle {
+	color: rgb(233, 15, 15);
+	font-size: 1.5em;
+	font-family: 'Darumadrop One', sans-serif, Helvetica, sans-serif;
+}
+
+#title_div {
+	padding-top: 1em;
+	line-height: 1.5em;
+}
+
+#popup {
+	width: 275px;
+	height: 50px;
+	padding: 10px;
+	background: #bd83f7;
+	border-radius: 50px;
+	position: relative;
+	font-size: 16px;
+	text-align: center;
+}
+#popup .tip {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 30px;
+	left: -16px;
+	border: solid 10px;
+	border-color: transparent #bd83f7 transparent transparent;
+}
+
+.close-txt {
+	font-size: 12px;
+	bottom: 0;
+}
+
+.typed-cursor{
+    opacity: 1;
+		color: #98acc2;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

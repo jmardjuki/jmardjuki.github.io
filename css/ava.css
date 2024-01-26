@@ -1,0 +1,167 @@
+body {
+  background-color:black;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 200px;
+  height: 200px;
+  background: #FF7580;
+  border: 2px solid #FFF;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.hair-back {
+  position: absolute;
+  top: 36px;
+  left: 42.5px;
+  width: 115px;
+  height: 100px;
+  background: #424B54;
+  border-radius: 42.5px 42.5px 17.5px 17.5px;
+}
+
+.head {
+  position: absolute;
+  top: 56px;
+  left: 50px;
+  width: 100px;
+  height: 80px;
+  background: #FCEBD9;
+  border-radius: 30px 30px 35px 35px/35px 50% 50% 50%;
+}
+
+.fringe-right {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  width: 80px;
+  height: 22px;
+  background: #424B54;
+  border-radius: 0px 0px 0px 20px/0 0 0 80%;
+}
+
+.ear-left {
+  position: absolute;
+  top: 30px;
+  width: 25px;
+  height: 25px;
+  left: -12.5px;
+  background: #FCEBD9;
+  border-radius: 15px 15px 15px 25px;
+  z-index: 1;
+}
+
+.ear-right {
+  position: absolute;
+  top: 30px;
+  width: 25px;
+  height: 25px;
+  right: -12.5px;
+  background: #FCEBD9;
+  border-radius: 15px 15px 25px 15px;
+  z-index: 1;
+}
+
+.frame-left {
+  position: absolute;
+  top: 20px;
+  width: 25px;
+  height: 25px;
+  left: 0px;
+  border-radius: 50%;
+  border: 4px solid #7CC6FF;
+  z-index: 2;
+}
+
+.frame-mid {
+  position: absolute;
+  top: 35px;
+  width: 40px;
+  height: 4px;
+  left: 30px;
+  background: #7CC6FF;
+  z-index: 2;
+}
+
+.frame-right {
+  position: absolute;
+  top: 20px;
+  width: 25px;
+  height: 25px;
+  right: 0px;
+  border-radius: 50%;
+  border: 4px solid #7CC6FF;
+  z-index: 2;
+}
+
+.eye {
+  position: absolute;
+  top: 7.5px;
+  width: 10px;
+  height: 10px;
+  left: 7.5px;
+  background: #424B54;
+  border-radius: 50%;
+  z-index: 1;
+
+  animation-name: blink;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.mouth {
+  position: absolute;
+  top: 51px;
+  width: 40px;
+  height: 20px;
+  left: 30px;
+  background: #424B54;
+  border-radius: 0 0 40px 40px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.tongue {
+  position: absolute;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  left: 10px;
+  background: #FF6b92;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+.neck {
+  position: absolute;
+  top: 116px;
+  width: 30px;
+  height: 30px;
+  left: 85px;
+  background: #FCEBD9;
+  border-radius: 0 0 100% 100%;
+  z-index: 1;
+}
+
+.shirt {
+  position: absolute;
+  top: 131px;
+  width: 90px;
+  height: 130px;
+  left: 55px;
+  background: #d3ffe0;
+  border-radius: 90px 90px 0 0;
+}
+
+@keyframes blink {
+  0% { height: 10px; }
+  48% { height: 10px; }
+  50% { height: 2px; }
+  52% { height: 10px; }
+  100% { height: 10px; }
+}
